@@ -1,0 +1,40 @@
+.load-more-wrapper {
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+.load-more-wrapper:before {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 40%;
+    content: "";
+    border-top: 1px solid #b7b1b1
+}
+
+.load-more-wrapper:after {
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 0;
+    width: 40%;
+    content: "";
+    border-top: 1px solid #b7b1b1
+}
+
+#load-more-btn {
+    background-color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
